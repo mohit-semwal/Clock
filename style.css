@@ -1,0 +1,136 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+.maindiv{
+    border: 20px solid;
+    width: 529px;
+    height: 529px;
+    margin: 100px auto ;
+    border-radius: 50%;
+    box-shadow: 10px 5px 25px rgb(130, 125, 125),
+    -5px -5px 15px rgb(130, 125, 125) ;
+
+}
+.clock{
+    
+    border: 15px solid white;
+    /* opacity: 0.3; */
+    background-color: black;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    position: relative;
+}
+.clock ul li{
+    list-style: none;
+    position: absolute;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    font-size: 3rem;
+    /* border: 1px solid; */
+}
+.hour{
+    border: 4px solid white;
+    background-color: white;
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    height: 140px;
+    transform-origin: bottom;
+}
+.minute{
+    border: 4px solid white;
+    background-color: white;
+
+    position: absolute;
+    right: 50%;
+    bottom: 50%;
+    height: 180px;
+    transform-origin: bottom;
+}
+.second{
+    border: 2px solid red;
+    background-color: red;
+
+    position: absolute;
+    right: 50%;
+    bottom: 50%;
+    height: 150px;
+    transform-origin: bottom;
+
+}
+.dot{
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+    background-color: rgb(255, 254, 254);
+    border-radius: 50%;
+    position: absolute;
+    right: 48%;
+    top: 48%;
+   
+
+    
+
+}
+.clock ul li:nth-child(1){
+    top: 6%;
+    right: 24%;
+    color: white;
+}
+.clock ul li:nth-child(2){
+    top: 23.5% ;
+    right: 8%;
+    color: white;
+}
+.clock ul li:nth-child(3){
+    top: 46%;
+    right: 2%;
+    color: white;
+}
+.clock ul li:nth-child(4){
+    top: 66%;
+    right: 8%;
+    color: white;
+}
+.clock ul li:nth-child(5){
+    top: 82%;
+    right: 22.5%;
+    color: white;
+}
+.clock ul li:nth-child(6){
+    top: 88%;
+    right: 47%;
+    color: white;
+}
+.clock ul li:nth-child(7){
+    top: 83%;
+    right: 72%;
+    color: white;
+}
+.clock ul li:nth-child(8){
+    top: 69%;
+    color: white;
+}
+.clock ul li:nth-child(9){
+    top: 46%;
+    right: 95%;
+    color: white;
+}
+.clock ul li:nth-child(10){
+    top: 23.5%;
+    left: 6%;
+    color: white;
+}
+.clock ul li:nth-child(11){
+    top: 6%;
+    left: 24%;
+    color: white;
+    color: white;
+}
+.clock ul li:nth-child(12){
+    top: 0%;
+    right: 50%;
+    color: white;
+}
